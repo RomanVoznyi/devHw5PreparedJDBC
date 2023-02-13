@@ -18,7 +18,10 @@ public class Settings {
     private static final String DEFAULT_SETTINGS_FILENAME = "prefs.json";
     public final static String DB_URL_KEY = "db_url";
     public final static String INIT_SQL_KEY = "init_sql";
-    public final static String POPULATE_SQL_KEY = "populate_sql";
+    public final static String POPULATE_WORKER_SQL_KEY = "populate_worker_sql";
+    public final static String POPULATE_CLIENT_SQL_KEY = "populate_client_sql";
+    public final static String POPULATE_PROJECT_SQL_KEY = "populate_project_sql";
+    public final static String POPULATE_PR_WORKER_SQL_KEY = "populate_pr_worker_sql";
     public final static String LONGEST_SQL_KEY = "f_longest_sql";
     public final static String MAX_CLIENT_SQL_KEY = "f_max_pr_client";
     public final static String MAX_SALARY_SQL_KEY = "f_max_salary";
